@@ -74,6 +74,7 @@ function App() {
       return () => clearInterval(timer);
     },
     [
+      state,
       state.isActive,
       state.pause,
       state.break,
