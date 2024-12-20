@@ -15,6 +15,8 @@ export function reducer(state, action) {
       return { ...state, session: state.session + action.payload };
     case "reset":
       return { ...state, session: 25, break: 5, isActive: true, pause: true };
+    default:
+      console.warn("Unhandled case:", state);
   }
 }
 
