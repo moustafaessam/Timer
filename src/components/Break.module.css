@@ -1,0 +1,8 @@
+.break {
+  font-size: 30px;
+}
+.breakLength {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

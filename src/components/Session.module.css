@@ -1,0 +1,8 @@
+.session {
+  font-size: 30px;
+}
+.sessionLength {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

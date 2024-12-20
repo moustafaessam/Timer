@@ -1,0 +1,24 @@
+.countDown {
+  text-align: center;
+  padding-top: 10px;
+  border: 7px solid #13353a;
+  margin: 20px auto 10px auto;
+  width: 270px;
+  border-radius: 50px;
+}
+.countDownHeader {
+  font-size: 30px;
+  padding-top: 10px;
+}
+.countDownTimer {
+  font-size: 80px;
+}
+.countDownIcons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+.countDownRed {
+  color: rgb(165, 13, 13);
+}
